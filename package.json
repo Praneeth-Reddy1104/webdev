@@ -1,0 +1,28 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "main": "backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praneeth-Reddy1104/webdev.git"
+  },
+  "author": "Praneeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Praneeth-Reddy1104/webdev/issues"
+  },
+  "homepage": "https://github.com/Praneeth-Reddy1104/webdev#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
